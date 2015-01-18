@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "moar_items",
+  "name": "Moar Items",
+  "description": "Add more items ingame.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Maxwell3103"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

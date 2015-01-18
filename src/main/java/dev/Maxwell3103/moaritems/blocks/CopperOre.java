@@ -1,0 +1,26 @@
+package dev.Maxwell3103.moaritems.blocks;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import dev.Maxwell3103.moaritems.MoarItems;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.creativetab.CreativeTabs;
+
+public class CopperOre extends Block {
+	private final String name = "copperore";
+	
+	public CopperOre() {
+		super(Material.rock);
+		
+		GameRegistry.registerBlock(this, name);
+		setBlockName(MoarItems.MODID + "_" + name);
+		setCreativeTab(CreativeTabs.tabMaterials);
+		
+		setHardness(3);
+		setResistance(15);
+	}
+	
+	public String getName() {
+		return name;
+	}
+}
