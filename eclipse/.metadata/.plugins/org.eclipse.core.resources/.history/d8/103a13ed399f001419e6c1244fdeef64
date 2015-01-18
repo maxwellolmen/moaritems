@@ -39,7 +39,7 @@ public class MoarItems {
 	@EventHandler
 	public void init(FMLInitializationEvent event) {
 		GameRegistry.addShapelessRecipe(new ItemStack(breadslice, 5), Items.bread);
-		GameRegistry.addShapelessRecipe(new ItemStack(Items.bread), new ItemStack(breadslice), new ItemStack(breadslice), new ItemStack(breadslice), new ItemStack(breadslice));
+		GameRegistry.addShapelessRecipe(new ItemStack(Items.bread), breadslice, breadslice, breadslice, breadslice, breadslice);
 		
 		GameRegistry.addSmelting(new ItemStack(Items.apple), new ItemStack(driedapple), (float) 0.35);
 		GameRegistry.addSmelting(new ItemStack(breadslice), new ItemStack(toastslice), (float) 0.35);
