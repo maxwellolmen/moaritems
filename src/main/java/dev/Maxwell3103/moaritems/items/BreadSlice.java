@@ -13,8 +13,6 @@ public class BreadSlice extends ItemFood {
 		
 		setUnlocalizedName(MoarItems.MODID + "_" + name);
 		setCreativeTab(CreativeTabs.tabFood);
-		
-		GameRegistry.registerItem(this, name);
 	}
 	
 	public String getName() {

@@ -12,6 +12,7 @@ public class CopperOre extends Block {
 	public CopperOre() {
 		super(Material.rock);
 		
+		GameRegistry.registerBlock(this, name);
 		setBlockName(MoarItems.MODID + "_" + name);
 		setBlockTextureName(MoarItems.MODID + "_" + name);
 		setCreativeTab(CreativeTabs.tabMaterials);

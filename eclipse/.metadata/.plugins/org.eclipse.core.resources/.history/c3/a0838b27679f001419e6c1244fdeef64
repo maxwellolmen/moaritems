@@ -5,13 +5,16 @@ import dev.Maxwell3103.moaritems.MoarItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemFood;
 
-public class ToastSlice extends ItemFood {
-	private final String name = "toastslice";
+public class DriedApple extends ItemFood {
+	private final String name = "driedapple";
 	
-	public ToastSlice(int food, float saturation, boolean wolfFood) {
+	public DriedApple(int food, float saturation, boolean wolfFood) {
 		super(food, saturation, wolfFood);
 		
+		GameRegistry.registerItem(this, name);
+		
 		setUnlocalizedName(MoarItems.MODID + "_" + name);
+		setTextureName(MoarItems.MODID + ":" + name);
 		setCreativeTab(CreativeTabs.tabFood);
 	}
 	
