@@ -36,8 +36,6 @@ public class MoarItems {
 		GameRegistry.registerItem(breadslice, breadslice.getName());
 		GameRegistry.registerItem(toastslice, toastslice.getName());
 		
-		GameRegistry.registerBlock(copperore, copperore.getName());
-		
 		CopperEventHandler oeh = new CopperEventHandler();
 		GameRegistry.registerWorldGenerator(oeh, 0);
 	}
