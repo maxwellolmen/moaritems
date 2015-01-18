@@ -11,11 +11,11 @@ public class DriedApple extends ItemFood {
 	public DriedApple(int food, float saturation, boolean wolfFood) {
 		super(food, saturation, wolfFood);
 		
-		GameRegistry.registerItem(this, name);
-		
 		setUnlocalizedName(MoarItems.MODID + "_" + name);
 		setTextureName(MoarItems.MODID + ":" + name);
 		setCreativeTab(CreativeTabs.tabFood);
+		
+		GameRegistry.registerItem(this, name);
 	}
 	
 	public String getName() {
